@@ -50,12 +50,26 @@ body {
 .right-container {
     display: flex;
     flex-direction: column;
+    
 }
 
 .hero-text {
     font-weight: bold;
     font-size: 19px;
-    position: relative;
-    top: 10rem;
+    margin-top: 10rem;
     padding: 0 10rem 0 15px;
+}
+
+.form {
+    padding-left: 15px;
+}
+
+form {
+    display: flex;
+    gap: 8rem;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
 }
