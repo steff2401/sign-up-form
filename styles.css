@@ -10,6 +10,7 @@ body {
 
 .wrapper {
     display: flex;
+    background-color: #f7f7f7;
 }
 
 .left-container, .right-container {
@@ -56,8 +57,7 @@ body {
 .right-container {
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
-    
+    width: 100%;
 }
 
 .hero-text {
@@ -108,12 +108,17 @@ input:focus {
 
 .access > button {
     color: white;
-    background-color: green;
+    background-color: #596D48;
     border: 0;
     font-weight: bold;
     padding: 10px 25px;
 }
 
 .access > button:hover {
-   
+   background-color: #364e21;
+}
+
+.log-in {
+    color: #596D48;
+    font-weight: bold;
 }
