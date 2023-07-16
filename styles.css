@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./fonts/Norse-Bold.otf");
+}
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -33,11 +38,12 @@ body {
 
 .logo-text {
     color: white;
-    font-size: 3rem;
+    font-size: 6rem;
+    font-family: "Norse Bold";
 }
 
 .logo {
-    width: 85px;
+    width: 100px;
     height: 80%;
 }
 
@@ -105,4 +111,8 @@ input:focus {
     border: 0;
     font-weight: bold;
     padding: 10px 25px;
+}
+
+.access > button:hover {
+   
 }
