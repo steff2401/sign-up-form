@@ -1,0 +1,61 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.left-container, .right-container {
+    min-height: 100vh;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10rem;
+    height: 10rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.logo-text {
+    color: white;
+    font-size: 3rem;
+}
+
+.logo {
+    width: 85px;
+    height: 80%;
+}
+
+.photo-credits {
+    color: #f7f7f7;
+    position: fixed;
+    bottom: 1rem;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text {
+    font-weight: bold;
+    font-size: 19px;
+    position: relative;
+    top: 10rem;
+    padding: 0 10rem 0 15px;
+}
