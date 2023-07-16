@@ -127,3 +127,12 @@ input:invalid {
     color: #596D48;
     font-weight: bold;
 }
+
+.error {
+    border: 1px solid rgb(223, 43, 43);
+    box-shadow: 1px 3px 5px lightgray;
+}
+
+#password {
+    margin-bottom: 0.5rem;
+}
